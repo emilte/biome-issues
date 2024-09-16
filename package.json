@@ -1,0 +1,16 @@
+{
+  "name": "frontend",
+  "private": true,
+  "version": "0.2.0",
+  "type": "module",
+  "proxy": "http://127.0.0.1:8000",
+  "scripts": {
+    "biome:cmd//": "echo Expect to only fix noDoubleEquals. Unfortunately formats other things.",
+    "biome:cmd": "pnpm biome lint --write --unsafe --only=lint/suspicious/noDoubleEquals"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.8.3"
+  }
+}
