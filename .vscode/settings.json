@@ -1,0 +1,14 @@
+{
+  // ================================
+  //              Editor
+  // ================================
+  "editor.formatOnSave": true,
+  "files.autoSave": "onFocusChange",
+  "[json][jsonc]": {
+    "editor.defaultFormatter": "biomejs.biome",
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "always",
+      "source.organizeImports": "always"
+    }
+  },
+}
