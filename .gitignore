@@ -13,6 +13,3 @@ node_modules
 **/frontend*/reports
 **/frontend*/tsconfig.tsbuildinfo
 **/frontend*/webpack-stats.dev.json
-
-### VisualStudioCode ###
-.vscode/

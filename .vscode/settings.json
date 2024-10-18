@@ -1,0 +1,58 @@
+{
+    // ===================================
+    //               Editor
+    // ===================================
+    "editor.formatOnSave": true,
+    // ===================================
+    //              Frontend
+    // ===================================
+    // "[javascript][javascriptreact][typescript][typescriptreact]": {
+    //   "editor.defaultFormatter": "esbenp.prettier-vscode",
+    //   "editor.codeActionsOnSave": {
+    //     "source.fixAll": "always",
+    //     "source.organizeImports": "always"
+    //   }
+    // },
+  
+    // ===================================
+    //          Frontend (biome)
+    // ===================================
+    "[javascript][javascriptreact][typescript][typescriptreact]": {
+      "editor.defaultFormatter": "biomejs.biome",
+      "editor.codeActionsOnSave": {
+        "source.fixAll": "always",
+        "source.organizeImports": "always"
+      }
+    },
+  
+    // ===================================
+    //               Other
+    // ===================================
+    "gitlab.pipelineGitRemoteName": "git@gitlab.sikt.no:feide/feide-kp.git",
+    // "gitlens.integrations.enabled": true,
+    "gitlens.remotes": [
+      {
+        "domain": "gitlab.sikt.no",
+        "type": "GitLab"
+      }
+    ],
+    /// SQLTools ///
+    "sqltools.connections": [
+      {
+        "name": "Feide (docker)",
+        "previewLimit": 50,
+        "server": "localhost",
+        "port": 5432,
+        "driver": "PostgreSQL",
+        "database": "feide_customer_portal",
+        "username": "postgres",
+        "password": ""
+      }
+    ],
+    "gitlens.views.repositories.autoRefresh": true,
+    "git.autorefresh": true
+  
+    /// devcontainer ///
+    // "jest.jestCommandLine": "./frontend/node_modules/.bin/jest --config /app/frontend/jest.config.js",
+  }
+  

@@ -14,7 +14,6 @@
       //   "*.scss" // Not supported yet.
     ],
     "ignore": [
-      "frontend/src/i18n/keys.ts",
       ".vscode/" // Biome doesn't like comments in '.json' files.
     ]
   },
